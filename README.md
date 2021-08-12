@@ -18,11 +18,11 @@ limitations under the License.
 
 -->
 
-# N-API ndarray dtype
+# Node-API ndarray dtype
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
 
-> C API for returning the ndarray [data type][@stdlib/ndarray/dtypes] corresponding to an N-API typed array type.
+> C API for returning the ndarray [data type][@stdlib/ndarray/dtypes] corresponding to a Node-API typed array type.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -54,7 +54,7 @@ npm install @stdlib/ndarray-base-napi-typedarray-type-to-dtype
 
 #### stdlib_ndarray_napi_typedarray_type_to_dtype( napi_typedarray_type vtype )
 
-Returns the ndarray [data type][@stdlib/ndarray/dtypes] corresponding to an N-API typed array type.
+Returns the ndarray [data type][@stdlib/ndarray/dtypes] corresponding to a Node-API typed array type.
 
 ```c
 #include "stdlib/ndarray/base/napi/typedarray_type_to_dtype.h"
