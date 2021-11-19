@@ -20,7 +20,7 @@ limitations under the License.
 
 # Node-API ndarray dtype
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > C API for returning the ndarray [data type][@stdlib/ndarray/dtypes] corresponding to a Node-API typed array type.
 
@@ -119,6 +119,14 @@ napi_value addon( napi_env env, napi_callback_info info ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
@@ -164,8 +172,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ndarray-base-napi-typedarray-type-to-dtype/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/ndarray-base-napi-typedarray-type-to-dtype?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/ndarray-base-napi-typedarray-type-to-dtype.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/ndarray-base-napi-typedarray-type-to-dtype/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
