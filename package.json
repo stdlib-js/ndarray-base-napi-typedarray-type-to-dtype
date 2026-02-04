@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-napi-typedarray-type-to-dtype",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "C API for returning the ndarray data type corresponding to a Node-API typed array type.",
   "license": "Apache-2.0",
   "author": {
